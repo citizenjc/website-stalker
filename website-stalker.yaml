@@ -4,7 +4,7 @@ sites:
   - url: https://www.goretroid.com/pages/delivery-dashboard
     filename: sites/go-retroid-dashboard.yaml
     editors:
-      #- css_select: ".scrollable-wrapper"
-      #- css_remove: script
+      - css_select: "table"
+      - css_remove: script
       - html_url_canonicalize
       - html_markdownify
