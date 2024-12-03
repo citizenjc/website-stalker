@@ -1,10 +1,10 @@
 ---
-from: jrelourenco@outlook.pt
+from: 0heyjc@gmail.com
 sites:
-  - url: https://www.acss.min-saude.pt/2019/02/11/fisica-medica/
-    filename: acss/fisica-medica.html
+  - url: https://www.goretroid.com/pages/delivery-dashboard
+    filename: sites/go-retroid-dashboard.yaml
     editors:
-      - css_select: "#MBV_Main"
+      - css_select: ".scrollable-wrapper"
       - css_remove: script
       - html_url_canonicalize
       - html_markdownify
